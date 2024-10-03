@@ -1,0 +1,5 @@
+so I have a C matrix which contains 'blocks' of the input, x. these two blocks are multiplied like so...
+
+out = torch.mul(x_1, torch.cos(C)) + torch.mul(x_2, torch.sin(C))
+
+if x had the dimensions (batch, sequence_length, heads, d)
